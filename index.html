@@ -48,15 +48,7 @@
 </SELECT>
 </FORM>
 
-<FORM>
-姓名：<INPUT TYPE="TEXT" NAME="NAME" SIZE="40">
-</FORM>
-<FORM>
-帳號:：<INPUT TYPE="TEXT" NAME="id" SIZE="40">
-</FORM>
-<FORM>
-密碼：<INPUT TYPE="PASSWORD" NAME="password">
-</FORM>
+
 
 <FORM>
 <INPUT TYPE="submit" NAME="submit-Button" VALUE="登錄">
@@ -66,3 +58,26 @@
 <a href="https://www.instagram.com/robin_en.kom/" target="-blank">開發者IG</a> <br>
 <a href="https://www.instagram.com/rricee__/" target="-blank">錐子</a?<br>
 
+<SCRIPT LANGUAGE="javascript">
+
+var password = prompt("請輸入密碼","")
+if (password=="123")
+{
+alert('Welcome!')
+location.href='sin-suc.html'
+}
+else
+{
+if (password=="null")
+{
+alert('請再輸入一次密碼');
+location.href='examples/javascript/16ex2.html';
+}
+else
+if (password!="123")
+{
+alert('請再輸入一次密碼');
+location.href='';
+}
+}
+</SCRIPT>
